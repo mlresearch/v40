@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Efficient Sampling for Gaussian Graphical Models via Spectral Sparsification | COLT 2015 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Efficient Sampling for Gaussian Graphical Models  via Spectral Sparsification">
+
+  <meta name="citation_author" content="Cheng, Dehua">
+
+  <meta name="citation_author" content="Cheng, Yu">
+
+  <meta name="citation_author" content="Liu, Yan">
+
+  <meta name="citation_author" content="Peng, Richard">
+
+  <meta name="citation_author" content="Teng, Shang-Hua">
+
+<meta name="citation_publication_date" content="2015">
+<meta name="citation_conference_title" content="Proceedings of The 28th Conference on Learning Theory">
+<meta name="citation_firstpage" content="364">
+<meta name="citation_lastpage" content="390">
+<meta name="citation_pdf_url" content="Cheng15.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>Efficient Sampling for Gaussian Graphical Models via Spectral Sparsification</h1>
+
+	<div id="authors">
+	
+		Dehua Cheng,
+	
+		Yu Cheng,
+	
+		Yan Liu,
+	
+		Richard Peng,
+	
+		Shang-Hua Teng
+	<br />
+	</div>
+	<div id="info">
+		Proceedings of The 28th Conference on Learning Theory,
+		pp. 364–390, 2015
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		<p>Motivated by a sampling problem basic to computational statistical inference, we develop a toolset based on spectral sparsification for a family of fundamental problems involving Gaussian sampling, matrix functionals, and reversible Markov chains. Drawing on the connection between Gaussian graphical models and the recent breakthroughs in spectral graph theory, we give the first nearly linear time algorithm for the following basic matrix problem: Given an <span class="math">\(n\times n\)</span> Laplacian matrix <span class="math">\(\mathbf{M}\)</span> and a constant <span class="math">\(-1 \leq p \leq 1\)</span>, provide efficient access to a sparse <span class="math">\(n\times n\)</span> linear operator <span class="math">\(\tilde{\mathbf{C}}\)</span> such that <span class="math">\[\mathbf{M}^{p} \approx \tilde{\mathbf{C}} \tilde{\mathbf{C}}^\top,\]</span> where <span class="math">\(\approx\)</span> denotes spectral similarity. When <span class="math">\(p\)</span> is set to <span class="math">\(-1\)</span>, this gives the first parallel sampling algorithm that is essentially optimal both in total work and randomness for Gaussian random fields with symmetric diagonally dominant (SDD) precision matrices. It only requires <span><em>nearly linear work</em></span> and <span class="math">\(2n\)</span> <span><em>i.i.d. random univariate Gaussian samples</em></span> to generate an <span class="math">\(n\)</span>-dimensional <span><em>i.i.d. Gaussian random sample</em></span> in polylogarithmic depth.</p>
+<p>The key ingredient of our approach is an integration of spectral sparsification with multilevel method: Our algorithms are based on factoring <span class="math">\(\mathbf{M}^p\)</span> into a product of well-conditioned matrices, then introducing powers and replacing dense matrices with sparse approximations. We give two sparsification methods for this approach that may be of independent interest. The first invokes Maclaurin series on the factors, while the second builds on our new nearly linear time spectral sparsification algorithm for random-walk matrix polynomials. We expect these algorithmic advances will also help to strengthen the connection between machine learning and spectral graph theory, two of the most active fields in understanding large data and networks.</p>
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="Cheng15.pdf">Download PDF</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>

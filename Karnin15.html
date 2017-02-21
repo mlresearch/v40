@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Online <span>PCA</span> with Spectral Bounds | COLT 2015 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Online {PCA} with Spectral Bounds">
+
+  <meta name="citation_author" content="Karnin, Zohar">
+
+  <meta name="citation_author" content="Liberty, Edo">
+
+<meta name="citation_publication_date" content="2015">
+<meta name="citation_conference_title" content="Proceedings of The 28th Conference on Learning Theory">
+<meta name="citation_firstpage" content="1129">
+<meta name="citation_lastpage" content="1140">
+<meta name="citation_pdf_url" content="Karnin15.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>Online <span>PCA</span> with Spectral Bounds</h1>
+
+	<div id="authors">
+	
+		Zohar Karnin,
+	
+		Edo Liberty
+	<br />
+	</div>
+	<div id="info">
+		Proceedings of The 28th Conference on Learning Theory,
+		pp. 1129–1140, 2015
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		This paper revisits the online PCA problem. Given a stream of <span class="math">\(n\)</span> vectors <span class="math">\(x_t \in \mathbb{R}^d\)</span> (columns of <span class="math">\(X\)</span>) the algorithm must output <span class="math">\(y_t \in \mathbb{R}^\ell\)</span> (columns of <span class="math">\(Y\)</span>) before receiving <span class="math">\(x_{t+1}\)</span>. The goal of online PCA is to simultaneously minimize the target dimension <span class="math">\(\ell\)</span> and the error <span class="math">\(\|X - (XY^{{\scriptstyle{  \textrm +}}})Y\|^2\)</span>. We describe two simple and deterministic algorithms. The first, receives a parameter <span class="math">\(\Delta\)</span> and guarantees that <span class="math">\(\|X - (XY^{{\scriptstyle{  \textrm +}}})Y\|^2\)</span> is not significantly larger than <span class="math">\(\Delta\)</span>. It requires a target dimension of <span class="math">\(\ell = O(k/\epsilon)\)</span> for any <span class="math">\(k,\epsilon\)</span> such that <span class="math">\(\Delta \ge \epsilon\sigma_1^2 + \sigma_{k+1}^2\)</span>, with <span class="math">\(\sigma_i\)</span> being the <span class="math">\(i\)</span>’th singular value of <span class="math">\(X\)</span>. The second receives <span class="math">\(k\)</span> and <span class="math">\(\epsilon\)</span> and guarantees that <span class="math">\(\|X - (XY^{{\scriptstyle{  \textrm +}}})Y\|^2 \le \epsilon\sigma_1^2 + \sigma_{k+1}^2\)</span>. It requires a target dimension of <span class="math">\(O( k\log n/\epsilon^2)\)</span>. Different models and algorithms for Online PCA were considered in the past. This is the first that achieves a bound on the spectral norm of the residual matrix.
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="Karnin15.pdf">Download PDF</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>

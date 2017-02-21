@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Fast Exact Matrix Completion with Finite Samples | COLT 2015 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Fast Exact Matrix Completion with Finite Samples">
+
+  <meta name="citation_author" content="Jain, Prateek">
+
+  <meta name="citation_author" content="Netrapalli, Praneeth">
+
+<meta name="citation_publication_date" content="2015">
+<meta name="citation_conference_title" content="Proceedings of The 28th Conference on Learning Theory">
+<meta name="citation_firstpage" content="1007">
+<meta name="citation_lastpage" content="1034">
+<meta name="citation_pdf_url" content="Jain15.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>Fast Exact Matrix Completion with Finite Samples</h1>
+
+	<div id="authors">
+	
+		Prateek Jain,
+	
+		Praneeth Netrapalli
+	<br />
+	</div>
+	<div id="info">
+		Proceedings of The 28th Conference on Learning Theory,
+		pp. 1007–1034, 2015
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		<p>Matrix completion is the problem of recovering a low rank matrix by observing a small fraction of its entries. A series of recent works (Keshavan 2012),(Jain et al. 2013) and (Hardt, 2013) have proposed fast non-convex optimization based iterative algorithms to solve this problem. However, the sample complexity in all these results is sub-optimal in its dependence on the rank, condition number and the desired accuracy.</p>
+<p>In this paper, we present a fast iterative algorithm that solves the matrix completion problem by observing <span class="math">\(O\left(nr^5 \log^3 n\right)\)</span> entries, which is independent of the condition number and the desired accuracy. The run time of our algorithm is <span class="math">\(O\left( nr^7\log^3 n\log 1/\epsilon \right)\)</span> which is near linear in the dimension of the matrix. To the best of our knowledge, this is the first near linear time algorithm for exact matrix completion with finite sample complexity (i.e. independent of <span class="math">\(\epsilon\)</span>). Our algorithm is based on a well known projected gradient descent method, where the projection is onto the (non-convex) set of low rank matrices. There are two key ideas in our result: 1) our argument is based on a <span class="math">\(\ell_\infty\)</span> norm potential function (as opposed to the spectral norm) and provides a novel way to obtain perturbation bounds for it. 2) we prove and use a natural extension of the Davis-Kahan theorem to obtain perturbation bounds on the best low rank approximation of matrices with good eigen gap. Both of these ideas may be of independent interest.</p>
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="Jain15.pdf">Download PDF</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>

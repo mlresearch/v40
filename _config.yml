@@ -1,0 +1,53 @@
+---
+booktitle: Proceedings of The 28th Conference on Learning Theory
+volume: 40
+year: '2015'
+shortname: COLT
+start: 2015-07-03
+end: 2015-07-06
+published: 2015-06-26
+sections:
+- name: preface
+  title: Preface
+- name: default
+  title: Regular Papers
+- name: open
+  title: Open Problems
+layout: proceedings
+series: Proceedings of Machine Learning Research
+id: COLT-2015
+month: 0
+abstract: ''
+editor:
+- given: Peter
+  family: Grünwald
+- given: Elad
+  family: Hazan
+- given: Satyen
+  family: Kale
+title: Proceedings of The 28th Conference on Learning Theory
+email: ''
+description: Proceedings of The 28th Conference on Learning Theory, Paris, France
+url: http://proceedings.mlr.press
+baseurl: "/v40"
+twitter_username: mlresearch
+github_username: mlresearch
+markdown: kramdown
+permalink: "/:title.html"
+github:
+  edit: true
+  repository: v40
+conference:
+  name: Conference on Learning Theory
+  url: http://www.learningtheory.org/colt2015/
+  location: Paris, France
+  dates:
+  - 2015-07-03
+  - 2015-07-04
+  - 2015-07-05
+  - 2015-07-06
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+# Site settings
+# Auto generated from v40.bib

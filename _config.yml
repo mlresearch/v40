@@ -18,6 +18,8 @@ series: Proceedings of Machine Learning Research
 id: COLT-2015
 month: 0
 abstract: ''
+tex_title: 
+title: Proceedings of Machine Learning Research
 editor:
 - given: Peter
   family: Grünwald
@@ -25,7 +27,6 @@ editor:
   family: Hazan
 - given: Satyen
   family: Kale
-title: Proceedings of Machine Learning Research
 description: |
   Proceedings of The 28th Conference on Learning Theory
     Held in Paris, France on 3-06 July 2015

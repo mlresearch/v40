@@ -16,6 +16,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: Cesa-Bianchi15
 month: 0
+tex_title: On the Complexity of Learning with Kernels
 firstpage: 297
 lastpage: 325
 page: 297-325

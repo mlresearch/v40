@@ -20,6 +20,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: Kamalaruban15
 month: 0
+tex_title: Exp-Concavity of Proper Composite Losses
 firstpage: 1035
 lastpage: 1065
 page: 1035-1065

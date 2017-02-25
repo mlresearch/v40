@@ -15,6 +15,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: Papadimitriou15
 month: 0
+tex_title: Cortical Learning via Prediction
 firstpage: 1402
 lastpage: 1422
 page: 1402-1422

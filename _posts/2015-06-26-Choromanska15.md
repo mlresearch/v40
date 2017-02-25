@@ -20,6 +20,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: Choromanska15
 month: 0
+tex_title: 'Open Problem: The landscape of the loss surfaces of multilayer networks'
 firstpage: 1756
 lastpage: 1760
 page: 1756-1760

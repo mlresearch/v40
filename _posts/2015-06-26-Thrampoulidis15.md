@@ -20,6 +20,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: Thrampoulidis15
 month: 0
+tex_title: 'Regularized Linear Regression: A Precise Analysis of the Estimation Error'
 firstpage: 1683
 lastpage: 1709
 page: 1683-1709

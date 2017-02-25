@@ -10,6 +10,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: Balsubramani15
 month: 0
+tex_title: Optimally Combining Classifiers Using Unlabeled Data
 firstpage: 211
 lastpage: 225
 page: 211-225

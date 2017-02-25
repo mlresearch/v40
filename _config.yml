@@ -25,9 +25,21 @@ editor:
   family: Hazan
 - given: Satyen
   family: Kale
-title: Proceedings of The 28th Conference on Learning Theory
-email: ''
-description: Proceedings of The 28th Conference on Learning Theory, Paris, France
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of The 28th Conference on Learning Theory
+    Held in Paris, France on 3-06 July 2015
+
+  Published as Volume 40 by the Proceedings of Machine Learning Research on 26 June 2015.
+
+  Volume Edited by:
+    Peter Grünwald
+    Elad Hazan
+    Satyen Kale
+
+  Series Editors:
+    Neil D. Lawrence
+    Mark Reid
 url: http://proceedings.mlr.press
 baseurl: "/v40"
 twitter_username: mlresearch
@@ -37,6 +49,7 @@ permalink: "/:title.html"
 github:
   edit: true
   repository: v40
+email: ''
 conference:
   name: Conference on Learning Theory
   url: http://www.learningtheory.org/colt2015/

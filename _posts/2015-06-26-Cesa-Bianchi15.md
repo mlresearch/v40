@@ -20,7 +20,8 @@ tex_title: On the Complexity of Learning with Kernels
 firstpage: 297
 lastpage: 325
 page: 297-325
-sections: 
+order: 297
+cycles: false
 author:
 - given: Nicolò
   family: Cesa-Bianchi

@@ -24,7 +24,8 @@ tex_title: 'Open Problem: The landscape of the loss surfaces of multilayer netwo
 firstpage: 1756
 lastpage: 1760
 page: 1756-1760
-sections: 
+order: 1756
+cycles: false
 author:
 - given: Anna
   family: Choromanska

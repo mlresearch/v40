@@ -19,7 +19,8 @@ tex_title: Cortical Learning via Prediction
 firstpage: 1402
 lastpage: 1422
 page: 1402-1422
-sections: 
+order: 1402
+cycles: false
 author:
 - given: Christos H.
   family: Papadimitriou

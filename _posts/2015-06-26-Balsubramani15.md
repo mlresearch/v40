@@ -14,7 +14,8 @@ tex_title: Optimally Combining Classifiers Using Unlabeled Data
 firstpage: 211
 lastpage: 225
 page: 211-225
-sections: 
+order: 211
+cycles: false
 author:
 - given: Akshay
   family: Balsubramani

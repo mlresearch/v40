@@ -24,7 +24,8 @@ tex_title: 'Regularized Linear Regression: A Precise Analysis of the Estimation 
 firstpage: 1683
 lastpage: 1709
 page: 1683-1709
-sections: 
+order: 1683
+cycles: false
 author:
 - given: Christos
   family: Thrampoulidis

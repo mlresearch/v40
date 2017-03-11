@@ -67,6 +67,7 @@ conference:
   - 2015-07-04
   - 2015-07-05
   - 2015-07-06
+  number: 28
 analytics:
   google:
     tracking_id: UA-92432422-1

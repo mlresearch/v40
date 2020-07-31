@@ -1,1 +1,21 @@
-Proceedings of Machine Learning Research Volume 40
+# PMLR V40
+
+To suggest fixes to this volume please make a pull request containng the changes requested and a justificaiton for the changes.
+
+To edit the details of this conference work [edit the _config.yml](./_config.yml) file and submit a pull request.
+
+To make changes to the individual paper details, edit the associated paper file in the [./_posts](./_posts) subdirectory.
+
+Proceedings of The 28th Conference on Learning Theory
+  Held in Paris, France on 03-06 July 2015
+
+Published as Volume 40 by the Proceedings of Machine Learning Research on 26 June 2015.
+
+Volume Edited by:
+  Peter Grünwald
+  Elad Hazan
+  Satyen Kale
+
+Series Editors:
+  Neil D. Lawrence
+  Mark Reid
